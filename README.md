@@ -1,1 +1,3 @@
 # Airquality
+
+  The purpose of this project is to monitor the quality of air in the surrounding in terms of PPM(Parts Per Million). It comprises an Arduino Uno board, bluetooth module, MQ135 gas sensor and an android mobile. Once the setup is done the gas sensor starts to obtain the quality of the surrounding atmosphere. The android application has been developed using MIT-App inventor 2, to display the value read by the sensor. Thus once the bluetooth connection is set between the module and the phone the value of the air quality is updated from the device with a delay of five second and displayed in the application.
