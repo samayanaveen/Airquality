@@ -1,0 +1,19 @@
+#define ledPin 7
+int sensorValue;
+void setup() {
+  Serial.begin(9600);
+}
+void loop() {
+  sensorValue = analogRead(0); 
+Serial.println(sensorValue,DEC);
+ Serial.print(" PPM");   
+  if(sensorValue<400)
+{
+ Serial.println("Good quality  air");
+}
+else
+{
+ Serial.println("Polluted air");
+ }
+delay(1000); 
+}
